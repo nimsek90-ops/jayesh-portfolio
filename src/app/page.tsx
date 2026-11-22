@@ -9,6 +9,7 @@ import CollegeEducationSection from "@/components/portfolio/CollegeEducationSect
 import LeadershipSection from "@/components/portfolio/LeadershipSection";
 import AchievementsSection from "@/components/portfolio/AchievementsSection";
 import ServicesSection from "@/components/portfolio/ServicesSection";
+import FamilyHeritageSection from "@/components/portfolio/FamilyHeritageSection";
 import CommentsSection from "@/components/portfolio/CommentsSection";
 import FAQSection from "@/components/portfolio/FAQSection";
 import BlogSection from "@/components/portfolio/BlogSection";
@@ -71,10 +72,13 @@ export default async function Home() {
       {/* 12. Achievements — Shito-Ryu Black Belt & National Silver Medal */}
       <AchievementsSection achievements={achievements as any} />
 
-      {/* 13. Strategic Services & Offerings */}
+      {/* 13. Strategic Services & Offerings — "How We Can Collaborate" */}
       <ServicesSection services={services as any} />
 
-      {/* 14. AEO / GEO Verified Knowledge Base & FAQ */}
+      {/* 14. Family Heritage & Geographic Roots — Grounded in Lineage & Strong Values */}
+      <FamilyHeritageSection />
+
+      {/* 15. AEO / GEO Verified Knowledge Base & FAQ */}
       <FAQSection />
 
       {/* 15. Technical Insights & Blog */}

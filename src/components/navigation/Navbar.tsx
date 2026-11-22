@@ -24,11 +24,12 @@ const navLinks: NavLink[] = [
   { name: "Achievements", href: "#achievements", tag: "Awarded" },
   { name: "Certifications", href: "#certifications" },
   { name: "Services", href: "#services" },
-  { name: "Comments", href: "#comments", tag: "New" },
+  { name: "Family & Roots", href: "#heritage" },
   { name: "FAQ", href: "#faq" },
   { name: "Insights / Blog", href: "#blog" },
   { name: "Resume", href: "#resume" },
   { name: "Contact", href: "#contact" },
+  { name: "Comments", href: "#comments", tag: "Moderated" },
 ];
 
 export default function Navbar() {
