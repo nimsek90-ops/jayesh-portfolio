@@ -10,6 +10,8 @@ export default function robots(): MetadataRoute.Robots {
       },
       {
         userAgent: [
+          "Googlebot",
+          "Bingbot",
           "GPTBot",
           "ChatGPT-User",
           "Google-Extended",
@@ -21,7 +23,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/admin", "/admin/", "/api/admin/"],
       },
     ],
-    sitemap: "https://jayeshnimse.com/sitemap.xml",
-    host: "https://jayeshnimse.com",
+    sitemap: "https://jayesh-portfolio-vert.vercel.app/sitemap.xml",
+    host: "https://jayesh-portfolio-vert.vercel.app",
   };
 }

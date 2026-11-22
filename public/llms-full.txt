@@ -1,13 +1,14 @@
-# Jayesh Nimse — Comprehensive Technical & Entity Dossier
+# Jayesh Vijay Nimse — Comprehensive Technical & Entity Dossier
 
 ## 1. Professional Overview
-Jayesh Nimse is an Indian AI software developer, business strategist, and tech founder based in Kolhapur, Maharashtra. He operates at the convergence of Artificial Intelligence, Software Engineering, and Commercial Business Strategy.
+Jayesh Vijay Nimse (Jayesh Nimse) is an Indian AI software developer, business strategist, and tech founder based in Maharashtra. He operates at the convergence of Artificial Intelligence, Software Engineering, and Commercial Business Strategy.
 
-- Official Website: https://jayeshnimse.com
+- Official Website: https://jayesh-portfolio-vert.vercel.app
 - Primary Contact Email: jayeshnimse3@gmail.com
-- Current Position: Founder & CEO at ScaleRise MediaTech
+- Current Position: Founder & CEO at ScaleRise MediaTech | Full-Stack Developer
 - Academic Degree: B.Tech in Computer Science & Business Systems (CSBS)
 - University / Institute: KIT's College of Engineering (Autonomous), Kolhapur, Maharashtra, India
+- School Education: Secondary School Certificate (SSC / 10th Standard) with 87.4% at Matoshri Rukminibai Damodar Malpani Vidyalaya, Sangamner
 
 ## 2. Technical Capabilities
 - **Programming Languages**: Python, TypeScript, JavaScript, C, C++, SQL.

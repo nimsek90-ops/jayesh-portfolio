@@ -113,16 +113,21 @@ export default function HeroSection({
               style={{ x: textParallaxX, y: textParallaxY }}
               className="relative select-none pointer-events-none text-center"
             >
-              <h1 className="font-extrabold text-[14.5vw] sm:text-[13.5vw] lg:text-[150px] xl:text-[170px] leading-[0.88] tracking-tighter text-[#12141a] uppercase flex items-center justify-center font-display">
-                <span>INNOVATOR</span>
-                {/* Reference 4-Point Star Spark */}
-                <motion.span
-                  animate={{ rotate: [0, 90, 180, 270, 360], scale: [1, 1.15, 1] }}
-                  transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-                  className="inline-block text-black ml-1 sm:ml-2 text-3xl sm:text-5xl lg:text-7xl align-top select-none"
-                >
-                  ✦
-                </motion.span>
+              <h1 className="font-extrabold text-[14.5vw] sm:text-[13.5vw] lg:text-[150px] xl:text-[170px] leading-[0.88] tracking-tighter text-[#12141a] uppercase flex flex-col items-center justify-center font-display">
+                <span className="sr-only">
+                  Jayesh Vijay Nimse | Founder &amp; CEO at ScaleRise MediaTech &amp; Full-Stack Developer
+                </span>
+                <span className="flex items-center justify-center">
+                  <span>INNOVATOR</span>
+                  {/* Reference 4-Point Star Spark */}
+                  <motion.span
+                    animate={{ rotate: [0, 90, 180, 270, 360], scale: [1, 1.15, 1] }}
+                    transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+                    className="inline-block text-black ml-1 sm:ml-2 text-3xl sm:text-5xl lg:text-7xl align-top select-none"
+                  >
+                    ✦
+                  </motion.span>
+                </span>
               </h1>
             </motion.div>
 
@@ -207,9 +212,9 @@ export default function HeroSection({
               </div>
             </div>
 
-            {/* Updated Bio Statement without "aspiring" */}
+            {/* Updated Bio Statement */}
             <p className="text-xs sm:text-[13px] leading-relaxed text-neutral-700 font-medium">
-              I&apos;m <strong className="text-black font-semibold">Jayesh Nimse</strong>, Founder of ScaleRise MediaTech and a CSBS technologist. I build intelligent solutions, explore emerging technologies, and turn ideas into practical business outcomes.
+              I&apos;m <strong className="text-black font-semibold">Jayesh Vijay Nimse</strong>, Founder &amp; CEO of ScaleRise MediaTech and a CSBS technologist. I build intelligent solutions, explore emerging technologies, and turn ideas into practical business outcomes.
             </p>
 
             {/* Social Icons Pill */}

@@ -18,54 +18,54 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jayeshnimse.com"),
-  title: "Jayesh Nimse | AI + Technology + Business | Founder & Technologist",
+  metadataBase: new URL("https://jayesh-portfolio-vert.vercel.app"),
+  title: "Jayesh Vijay Nimse | Founder & CEO at ScaleRise MediaTech & Full-Stack Developer",
   description:
-    "Official portfolio of Jayesh Nimse — Founder of ScaleRise MediaTech and CSBS Technologist. Building intelligent solutions at the intersection of AI, Technology, and Business.",
+    "Founder & CEO at ScaleRise MediaTech & Full-Stack Developer. Architecting AI-driven digital growth and robust web systems with ScaleRise, MedNova, and ARISE.",
   keywords: [
+    "Jayesh Vijay Nimse",
     "Jayesh Nimse",
-    "Jayesh Nimse AI",
-    "Jayesh Nimse Portfolio",
-    "AI and Technology Professional",
-    "AI Automation Developer",
-    "Tech Business Strategist",
+    "Founder & CEO at ScaleRise MediaTech",
     "ScaleRise MediaTech",
-    "MedNova Smart Hospital",
-    "KIT College of Engineering Kolhapur",
-    "Computer Science and Business Systems",
-    "Autonomous AI Agents",
+    "Full-Stack Developer",
+    "AI Automation Developer",
+    "MedNova",
+    "ARISE",
+    "AI-driven digital growth",
+    "KIT's College of Engineering Kolhapur",
+    "CSBS Technologist",
     "Python Developer",
-    "Full-Stack Engineer",
+    "Next.js Developer",
   ],
-  authors: [{ name: "Jayesh Nimse", url: "https://jayeshnimse.com" }],
-  creator: "Jayesh Nimse",
-  publisher: "Jayesh Nimse",
+  authors: [{ name: "Jayesh Vijay Nimse", url: "https://jayesh-portfolio-vert.vercel.app" }],
+  creator: "Jayesh Vijay Nimse",
+  publisher: "Jayesh Vijay Nimse",
   alternates: {
-    canonical: "https://jayeshnimse.com",
+    canonical: "https://jayesh-portfolio-vert.vercel.app",
   },
   openGraph: {
-    title: "Jayesh Nimse | AI + Technology + Business",
+    title: "Jayesh Vijay Nimse | Founder & CEO at ScaleRise MediaTech & Full-Stack Developer",
     description:
-      "Building intelligent solutions at the intersection of AI, Technology and Business. Founder of ScaleRise MediaTech, AI Developer & Strategist.",
-    url: "https://jayeshnimse.com",
-    siteName: "Jayesh Nimse Portfolio",
+      "Founder & CEO at ScaleRise MediaTech & Full-Stack Developer. Architecting AI-driven digital growth and robust web systems with ScaleRise, MedNova, and ARISE.",
+    url: "https://jayesh-portfolio-vert.vercel.app",
+    siteName: "Jayesh Vijay Nimse Portfolio",
     images: [
       {
-        url: "/images/jayesh_hero_portrait.png",
+        url: "https://jayesh-portfolio-vert.vercel.app/images/jayesh_hero_portrait.png",
         width: 654,
         height: 1212,
-        alt: "Jayesh Nimse — AI + Technology + Business",
+        alt: "Jayesh Vijay Nimse — Founder & CEO at ScaleRise MediaTech & Full-Stack Developer",
       },
     ],
     locale: "en_US",
-    type: "profile",
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jayesh Nimse | AI + Technology + Business",
+    title: "Jayesh Vijay Nimse | Founder & CEO at ScaleRise MediaTech & Full-Stack Developer",
     description:
-      "Building intelligent solutions at the intersection of AI, Technology and Business. Founder of ScaleRise MediaTech.",
-    images: ["/images/jayesh_hero_portrait.png"],
+      "Founder & CEO at ScaleRise MediaTech & Full-Stack Developer. Architecting AI-driven digital growth and robust web systems with ScaleRise, MedNova, and ARISE.",
+    images: ["https://jayesh-portfolio-vert.vercel.app/images/jayesh_hero_portrait.png"],
   },
   robots: {
     index: true,
@@ -78,6 +78,13 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    // =========================================================================
+    // GOOGLE SEARCH CONSOLE VERIFICATION:
+    // When you get your Google verification string, uncomment and paste below:
+    // google: "PASTE_YOUR_GOOGLE_SEARCH_CONSOLE_CODE_HERE",
+    // =========================================================================
+  },
 };
 
 export default function RootLayout({
@@ -85,18 +92,30 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // Structured Data Schema Graph
+  // Structured Data Schema Graph (JSON-LD) for Rich Google Search Indexing
   const jsonLdGraph = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Person",
-        "@id": "https://jayeshnimse.com/#person",
-        name: "Jayesh Nimse",
-        alternateName: "Jayesh V. Nimse",
-        url: "https://jayeshnimse.com",
-        image: "https://jayeshnimse.com/images/jayesh_hero_portrait.png",
-        jobTitle: "Founder & AI Technologist",
+        "@id": "https://jayesh-portfolio-vert.vercel.app/#person",
+        name: "Jayesh Vijay Nimse",
+        alternateName: ["Jayesh Nimse", "Jayesh V. Nimse"],
+        url: "https://jayesh-portfolio-vert.vercel.app",
+        image: "https://jayesh-portfolio-vert.vercel.app/images/jayesh_hero_portrait.png",
+        jobTitle: "Founder & CEO at ScaleRise MediaTech",
+        affiliation: [
+          {
+            "@type": "CollegeOrUniversity",
+            name: "KIT's College of Engineering, Kolhapur",
+            url: "https://www.kitcoek.in",
+          },
+          {
+            "@type": "Organization",
+            name: "ScaleRise MediaTech",
+            url: "https://scalerisemediatech.com",
+          },
+        ],
         worksFor: {
           "@type": "Organization",
           name: "ScaleRise MediaTech",
@@ -167,6 +186,7 @@ export default function RootLayout({
         sameAs: [
           "https://www.linkedin.com/in/jayesh-nimse-5578b526b",
           "https://github.com/nimsek90-ops",
+          "https://scalerisemediatech.com",
           "https://www.instagram.com/jayesh_v_nimse",
         ],
         email: "jayeshnimse3@gmail.com",
@@ -180,32 +200,36 @@ export default function RootLayout({
           "Business Strategy",
           "Growth Architecture",
           "Media Technology",
+          "ScaleRise MediaTech",
+          "MedNova Smart Hospital",
+          "ARISE Systems",
           "Karate Martial Arts",
         ],
         award: [
           "Shito-Ryu 1st Dan Karate Black Belt",
           "National Martial Arts Championship Silver Medalist",
+          "10th Standard SSC Distinction (87.4%)",
         ],
       },
       {
         "@type": "ProfilePage",
-        "@id": "https://jayeshnimse.com/#webpage",
-        url: "https://jayeshnimse.com",
-        name: "Jayesh Nimse | AI + Technology + Business",
-        mainEntity: { "@id": "https://jayeshnimse.com/#person" },
+        "@id": "https://jayesh-portfolio-vert.vercel.app/#webpage",
+        url: "https://jayesh-portfolio-vert.vercel.app",
+        name: "Jayesh Vijay Nimse | Founder & CEO at ScaleRise MediaTech & Full-Stack Developer",
+        mainEntity: { "@id": "https://jayesh-portfolio-vert.vercel.app/#person" },
         description:
-          "Official personal portfolio of Jayesh Nimse — Founder of ScaleRise MediaTech, AI Developer, and CSBS Technologist.",
+          "Founder & CEO at ScaleRise MediaTech & Full-Stack Developer. Architecting AI-driven digital growth and robust web systems with ScaleRise, MedNova, and ARISE.",
       },
       {
         "@type": "WebSite",
-        "@id": "https://jayeshnimse.com/#website",
-        url: "https://jayeshnimse.com",
-        name: "Jayesh Nimse Portfolio",
-        publisher: { "@id": "https://jayeshnimse.com/#person" },
+        "@id": "https://jayesh-portfolio-vert.vercel.app/#website",
+        url: "https://jayesh-portfolio-vert.vercel.app",
+        name: "Jayesh Vijay Nimse Portfolio",
+        publisher: { "@id": "https://jayesh-portfolio-vert.vercel.app/#person" },
       },
       {
         "@type": "FAQPage",
-        "@id": "https://jayeshnimse.com/#faq",
+        "@id": "https://jayesh-portfolio-vert.vercel.app/#faq",
         mainEntity: FAQ_ITEMS.map((item) => ({
           "@type": "Question",
           name: item.question,
@@ -221,6 +245,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        {/* ========================================================================= */}
+        {/* GOOGLE SEARCH CONSOLE VERIFICATION META TAG:                              */}
+        {/* You can also paste your meta tag directly here:                           */}
+        {/* <meta name="google-site-verification" content="PASTE_YOUR_CODE_HERE" /> */}
+        {/* ========================================================================= */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdGraph) }}

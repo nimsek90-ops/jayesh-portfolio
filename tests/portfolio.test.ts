@@ -178,4 +178,27 @@ describe("Jayesh Nimse Portfolio Integrity Checks", () => {
     expect(allText).toContain("Sangamner");
     expect(allText).toContain("87.4%");
   });
+
+  it("should have complete Technical SEO configuration with canonical URL, metadata and robots", () => {
+    const fs = require("fs");
+    const path = require("path");
+
+    const layoutContent = fs.readFileSync(path.join(__dirname, "../src/app/layout.tsx"), "utf8");
+    const robotsContent = fs.readFileSync(path.join(__dirname, "../src/app/robots.ts"), "utf8");
+    const sitemapContent = fs.readFileSync(path.join(__dirname, "../src/app/sitemap.ts"), "utf8");
+
+    // Title
+    expect(layoutContent).toContain("Jayesh Vijay Nimse | Founder & CEO at ScaleRise MediaTech & Full-Stack Developer");
+    // Canonical URL
+    expect(layoutContent).toContain("https://jayesh-portfolio-vert.vercel.app");
+    // Open Graph
+    expect(layoutContent).toContain("openGraph");
+    // Person Schema
+    expect(layoutContent).toContain('"@type": "Person"');
+    expect(layoutContent).toContain("Jayesh Vijay Nimse");
+    expect(layoutContent).toContain("Founder & CEO at ScaleRise MediaTech");
+    // Robots & Sitemap URL
+    expect(robotsContent).toContain("https://jayesh-portfolio-vert.vercel.app/sitemap.xml");
+    expect(sitemapContent).toContain("https://jayesh-portfolio-vert.vercel.app");
+  });
 });

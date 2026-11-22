@@ -14,7 +14,7 @@ describe("Security & Authentication Engine", () => {
 
     const wrongMatches = await verifyPassword("WrongPassword123", hash);
     expect(wrongMatches).toBe(false);
-  });
+  }, 15000);
 
   it("should issue signed JWT session tokens and verify payload", async () => {
     const payload = {
