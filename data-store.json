@@ -1,0 +1,393 @@
+{
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "ScaleRise MediaTech",
+      "slug": "scalerise-mediatech",
+      "category": "Entrepreneurship & MediaTech",
+      "summary": "A forward-thinking digital growth and media technology venture designed to help modern brands scale their audience and distribution.",
+      "problem": "Modern businesses and content creators struggle with fragmented digital distribution, inefficient production cycles, and poor ROI on brand-building initiatives.",
+      "solution": "Architected a scalable media-tech system combining automated content workflows, data-driven distribution models, and algorithmic reach strategies.",
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "AI Automation",
+        "Analytics Engine"
+      ],
+      "screenshots": [
+        "/images/scalerise_logo.png"
+      ],
+      "liveUrl": "https://scalerise-mediatech.netlify.app",
+      "githubUrl": "https://github.com/jayeshnimse/scalerise-engine",
+      "featured": true,
+      "order": 1,
+      "caseStudy": "ScaleRise MediaTech was founded to solve high operational overhead in digital content pipelines. By integrating intelligent agentic pipelines for content ideation, asset distribution, and audience performance tracking, ScaleRise enables high-velocity digital execution."
+    },
+    {
+      "id": "proj-3",
+      "title": "MedNova Smart Hospital",
+      "slug": "mednova-smart-hospital",
+      "category": "HealthTech & Systems",
+      "summary": "An intelligent hospital management and patient workflow ecosystem providing clinical data consolidation, queue optimization, and patient insights.",
+      "problem": "Hospital operations face severe bottlenecks in patient admission, clinical tracking, and resource allocation across emergency and outpatient units.",
+      "solution": "Engineered an integrated smart healthcare dashboard with predictive queue analytics, secure medical record access, and streamlined physician workflows.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "MySQL",
+        "Prisma",
+        "Tailwind CSS"
+      ],
+      "screenshots": [
+        "/images/jayesh_hero_portrait.png"
+      ],
+      "liveUrl": "https://mednova-jvn-vercel-snowy.vercel.app/",
+      "githubUrl": "https://github.com/nimsek90-ops/mednova-jvn",
+      "featured": true,
+      "order": 2,
+      "caseStudy": "MedNova Smart Hospital integrates secure relational schemas for patient history, doctor scheduling, and laboratory reports. Deployed with audit logging and responsive interfaces for fast triage and operational clarity."
+    },
+    {
+      "id": "proj-4",
+      "title": "AI Agents & Autonomous Workflows",
+      "slug": "ai-agents-automation",
+      "category": "Artificial Intelligence",
+      "summary": "Custom multi-agent autonomous framework orchestrating LLM tool calling, recursive task decomposition, and automated operational execution.",
+      "problem": "Enterprise repetitive knowledge work requires hours of manual coordination across disparate APIs, spreadsheets, and communication channels.",
+      "solution": "Built multi-agent pipelines leveraging LangChain/LlamaIndex paradigms, memory persistence, and tool interfaces for autonomous workflow execution.",
+      "techStack": [
+        "Python",
+        "FastAPI",
+        "OpenAI / Claude API",
+        "Vector Embeddings",
+        "LangGraph"
+      ],
+      "screenshots": [
+        "/images/jayesh_hero_portrait.png"
+      ],
+      "liveUrl": "https://ai-agents.jayeshnimse.com",
+      "githubUrl": "https://github.com/jayeshnimse/autonomous-ai-agents",
+      "featured": true,
+      "order": 3,
+      "caseStudy": "Developed goal-oriented autonomous agents capable of scraping market signals, synthesizing executive briefings, and executing verified API actions with human-in-the-loop safety checkpoints."
+    },
+    {
+      "id": "proj-5",
+      "title": "KIT AI Video Production System",
+      "slug": "kit-ai-video-production",
+      "category": "AI & Media Generation",
+      "summary": "AI-driven automated video generation pipeline transforming structured technical documentation into polished instructional video collateral.",
+      "problem": "High production costs and multi-week turnaround times for producing technical demonstrations and educational video assets.",
+      "solution": "Automated pipeline unifying text scripting, generative voice synthesis, synchronized timeline rendering, and automated subtitle overlays.",
+      "techStack": [
+        "Python",
+        "OpenCV",
+        "FFmpeg",
+        "Whisper AI",
+        "TTS Engines"
+      ],
+      "screenshots": [
+        "/images/jayesh_hero_portrait.png"
+      ],
+      "liveUrl": "https://www.instagram.com/reel/DaLCaezI97s/?utm_source=ig_web_copy_link",
+      "githubUrl": "https://github.com/jayeshnimse/kit-ai-video-production",
+      "featured": false,
+      "order": 4,
+      "caseStudy": "The KIT AI Video Production system achieved a 75% reduction in production time by chaining script generation, speech synthesis, and FFmpeg video compositing into a zero-touch pipeline."
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Programming",
+      "skills": [
+        {
+          "name": "Python",
+          "level": "Advanced"
+        },
+        {
+          "name": "C",
+          "level": "Proficient"
+        },
+        {
+          "name": "C++",
+          "level": "Proficient"
+        },
+        {
+          "name": "TypeScript",
+          "level": "Advanced"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "category": "Artificial Intelligence",
+      "skills": [
+        {
+          "name": "Large Language Models (LLMs)",
+          "level": "Advanced"
+        },
+        {
+          "name": "Autonomous AI Agents",
+          "level": "Advanced"
+        },
+        {
+          "name": "API Integrations & Tool Calling",
+          "level": "Expert"
+        },
+        {
+          "name": "Intelligent Process Automation",
+          "level": "Advanced"
+        },
+        {
+          "name": "Prompt Engineering & RAG",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "category": "Development & Systems",
+      "skills": [
+        {
+          "name": "Next.js & React",
+          "level": "Advanced"
+        },
+        {
+          "name": "Backend Architecture & APIs",
+          "level": "Advanced"
+        },
+        {
+          "name": "MySQL & Relational Databases",
+          "level": "Advanced"
+        },
+        {
+          "name": "Prisma ORM",
+          "level": "Advanced"
+        },
+        {
+          "name": "Tailwind CSS & 3D WebGL",
+          "level": "Proficient"
+        }
+      ]
+    },
+    {
+      "category": "Business Strategy & Growth",
+      "skills": [
+        {
+          "name": "Business Model Innovation",
+          "level": "Advanced"
+        },
+        {
+          "name": "Go-to-Market Strategy",
+          "level": "Advanced"
+        },
+        {
+          "name": "Digital Marketing & Branding",
+          "level": "Expert"
+        },
+        {
+          "name": "Strategic Sales & Negotiation",
+          "level": "Advanced"
+        },
+        {
+          "name": "Founder Leadership & Execution",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "category": "Analytics & Intelligence",
+      "skills": [
+        {
+          "name": "Data Analysis & Synthesis",
+          "level": "Advanced"
+        },
+        {
+          "name": "Executive Business Reporting",
+          "level": "Advanced"
+        },
+        {
+          "name": "KPI Metrics & Optimization",
+          "level": "Advanced"
+        },
+        {
+          "name": "Market & Competitive Research",
+          "level": "Expert"
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp-1",
+      "role": "Founder & CEO",
+      "company": "ScaleRise MediaTech",
+      "location": "India",
+      "period": "2024 — Present",
+      "isCurrent": true,
+      "description": "Spearheading venture vision, technology infrastructure, and strategic partnerships for an emerging media-technology studio.",
+      "highlights": [
+        "Architected media-tech distribution systems driving exponential organic impressions for client brands.",
+        "Engineered automated workflow pipelines reducing content generation cycle times by 60%.",
+        "Led cross-functional client strategy, business development, and financial forecasting."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "role": "Business Strategist Intern",
+      "company": "Startnex",
+      "location": "Remote",
+      "period": "2024",
+      "isCurrent": false,
+      "description": "Analyzed startup ecosystems, evaluated emerging technology markets, and supported early-stage growth strategies.",
+      "highlights": [
+        "Conducted in-depth market landscape research across high-growth AI and B2B SaaS verticals.",
+        "Formulated go-to-market and positioning recommendations for founder presentations.",
+        "Collaborated with core leadership on strategic partnership roadmaps."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-1",
+      "title": "Black Belt in Karate",
+      "category": "Martial Arts & Discipline",
+      "year": "Shodan • Certified",
+      "issuer": "Japan Karate Shotokai - India • Okinawa Martial Arts Academy",
+      "description": "Awarded official first-degree Black Belt certificate after years of rigorous physical conditioning, tactical discipline, kata precision, and mental endurance under certified masters.",
+      "verified": true,
+      "image": "/images/jayesh_black_belt.webp",
+      "badgeUrl": "/images/jayesh_black_belt.webp"
+    },
+    {
+      "id": "ach-2",
+      "title": "National Silver Medalist",
+      "category": "National Sports Championship",
+      "year": "National Level",
+      "issuer": "National Martial Arts Championship",
+      "description": "Competed at the national championship stage against top athletes across the country, securing the National Silver Medal.",
+      "verified": true
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "title": "AI Solutions & Agentic Workflows",
+      "shortDesc": "Custom autonomous AI agents, LLM integrations, and intelligent automation pipelines built to eliminate operational friction.",
+      "icon": "BrainCircuit",
+      "deliverables": [
+        "Custom LLM Tool Integration",
+        "Autonomous Agent Pipelines",
+        "API Orchestration",
+        "Enterprise Automation"
+      ]
+    },
+    {
+      "id": "srv-2",
+      "title": "Full-Stack Web & Software Engineering",
+      "shortDesc": "High-performance, modern, responsive web applications engineered with Next.js, TypeScript, Tailwind, and scalable relational databases.",
+      "icon": "Code",
+      "deliverables": [
+        "Next.js App Router Architecture",
+        "Relational Database Design (MySQL)",
+        "REST & Serverless APIs",
+        "Secure Authentication & Admin Dashboards"
+      ]
+    },
+    {
+      "id": "srv-3",
+      "title": "Business Strategy & Growth Architecture",
+      "shortDesc": "Data-backed commercial roadmaps, go-to-market execution plans, and media-technology scaling for modern ventures.",
+      "icon": "TrendingUp",
+      "deliverables": [
+        "Go-to-Market Strategy",
+        "Brand Positioning & Distribution",
+        "Operational Efficiency Audits",
+        "Startup Growth Advisory"
+      ]
+    }
+  ],
+  "testimonials": [],
+  "blogs": [
+    {
+      "id": "blog-1",
+      "title": "The Architecture of Autonomous AI Agents: Beyond Simple Chatbots",
+      "slug": "architecture-of-autonomous-ai-agents",
+      "summary": "How multi-agent decomposition, tool execution loops, and persistent vector memory are reshaping business software.",
+      "readingTime": "6 min read",
+      "publishedAt": "2024-11-10",
+      "tags": [
+        "Artificial Intelligence",
+        "Autonomous Agents",
+        "Software Architecture"
+      ],
+      "content": "### Moving Beyond Simple Chatbots\n\nWhile conversational interfaces captured the public's imagination, the true commercial leverage in artificial intelligence lies in **autonomous agentic systems**. Unlike chatbots that merely answer questions, an AI agent perceives goal objectives, formulates action plans, queries databases, executes APIs, and validates its own results.\n\n### Key Pillars of Production Agent Systems\n\n1. **Deterministic Guardrails**: Allowing agents to reason freely without deterministic validation leads to hallucinated actions. We combine LLM reasoning with strict JSON Schema validations.\n2. **Tool Calling & API Interfaces**: Equipping models with typed functions enables them to inspect live databases, trigger cloud runs, and query live endpoints.\n3. **Multi-Agent Collaboration**: Breaking down a complex objective into specialized subagents—such as a researcher, a writer, and a quality reviewer—consistently outperforms single prompt monoliths.\n\nBuilding at the intersection of AI and business requires solving real operational pain points with measurable efficiency gains."
+    },
+    {
+      "id": "blog-2",
+      "title": "Discipline, Martial Arts & Tech Entrepreneurship: Unlocking Asymmetric Outcomes",
+      "slug": "discipline-martial-arts-tech-entrepreneurship",
+      "summary": "Lessons in mental fortitude, focus, and strategic execution learned from earning a Karate Black Belt, winning a National Silver Medal, and building tech ventures.",
+      "readingTime": "5 min read",
+      "publishedAt": "2024-11-05",
+      "tags": [
+        "Entrepreneurship",
+        "Mindset",
+        "Leadership"
+      ],
+      "content": "### The Direct Link Between Physical Discipline and Technical Focus\n\nTraining for a National Martial Arts Black Belt and competing at the national level taught me lessons that no business textbook could replicate:\n\n- **Stress Inoculation**: Under pressure, you don't rise to the occasion; you sink to the level of your training. In production outages or high-stakes business pitches, emotional calmness is a superpower.\n- **Incremental Compounding**: No one earns a black belt in a weekend, just as no one builds a world-class platform in a single sprint. Daily relentless focus is the only real moat.\n- **Strategic Simplicity**: The best martial arts counter is often the simplest executed with precision. Similarly, clean, maintainable architecture beats convoluted over-engineering every time."
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt-1795349054890-lr60s",
+      "name": "Dr. Tech Reviewer",
+      "email": "reviewer@ai-lab.org",
+      "content": "Impressive portfolio showcasing genuine full-stack and AI expertise.",
+      "status": "PENDING",
+      "createdAt": "2026-11-22T12:04:14.890Z"
+    }
+  ],
+  "contactMessages": [
+    {
+      "id": "msg-1795349056007",
+      "fullName": "Test Recruiter",
+      "email": "recruiter@techventures.com",
+      "subject": "AI Leadership Opportunity",
+      "message": "Testing inquiry persistence into unified database.",
+      "serviceInterest": "AI Solutions & Autonomous Workflows",
+      "isRead": false,
+      "createdAt": "2026-11-22T12:04:16.007Z"
+    }
+  ],
+  "analytics": [
+    {
+      "id": "an-1795348944959",
+      "eventType": "page_view",
+      "path": "/",
+      "createdAt": "2026-11-22T12:02:24.959Z"
+    },
+    {
+      "id": "an-1795348944964",
+      "eventType": "project_view",
+      "path": "/projects/scalerise",
+      "createdAt": "2026-11-22T12:02:24.964Z"
+    },
+    {
+      "id": "an-1795349056016",
+      "eventType": "page_view",
+      "path": "/",
+      "createdAt": "2026-11-22T12:04:16.016Z"
+    },
+    {
+      "id": "an-1795349056021",
+      "eventType": "project_view",
+      "path": "/projects/scalerise",
+      "createdAt": "2026-11-22T12:04:16.021Z"
+    }
+  ]
+}

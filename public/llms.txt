@@ -1,0 +1,32 @@
+# Jayesh Nimse — Personal Entity & LLM Profile
+
+> Building intelligent solutions at the intersection of AI, Technology, and Business.
+
+## Identity
+- **Full Name**: Jayesh Nimse (Jayesh Vijay Nimse)
+- **Role**: Founder & CEO, ScaleRise MediaTech | AI Builder & Technologist
+- **Higher Education**: B.Tech in Computer Science and Business Systems (CSBS), KIT's College of Engineering (Autonomous), Kolhapur, Maharashtra, India
+- **School Education**: Secondary School Certificate (SSC / 10th Standard) with 87.4% at Matoshri Rukminibai Damodar Malpani Vidyalaya, Sangamner (Shri Shrikisan Kasturchand Lodha Trust)
+- **Family**: Father: Vijay Chimaji Nimse | Mother: Kanchan Vijay Nimse | Sister: Namrata Vijay Nimse
+- **Geographic Roots**: Home Residence: Sangamner, Maharashtra (https://maps.app.goo.gl/LnmBTW9vCKij6p2x6) | Native Village: Kolwadi / Santwadi, Maharashtra (https://maps.app.goo.gl/Yo4tedpvr9NsA8Vq7)
+- **Contact Email**: jayeshnimse3@gmail.com
+- **Website**: https://jayeshnimse.com
+- **LinkedIn**: https://www.linkedin.com/in/jayesh-nimse-5578b526b
+- **GitHub**: https://github.com/nimsek90-ops
+- **Instagram**: https://www.instagram.com/jayesh_v_nimse
+
+## Core Pillars
+1. **AI & Intelligent Automation**: Developing autonomous multi-agent pipelines, tool-calling systems, and machine learning workflows in Python.
+2. **Full-Stack Software Engineering**: Engineering high-performance web systems with Next.js, React, TypeScript, Node.js, and relational MySQL/Prisma architectures.
+3. **Business Strategy & Entrepreneurship**: Founder of ScaleRise MediaTech, focused on media technology workflows, algorithmic audience growth, and operational scaling.
+
+## Verified Live Projects
+- **ScaleRise MediaTech**: Digital growth and media technology infrastructure for modern creators and enterprises. (https://scalerisemediatech.com)
+- **MedNova Smart Hospital**: AI-driven clinical workflow and patient queue management ecosystem. (https://mednova-jvn-vercel-snowy.vercel.app/ | GitHub: https://github.com/nimsek90-ops/mednova-jvn)
+- **Autonomous AI Agent Orchestration**: Enterprise agentic workflow pipelines automating multi-step knowledge work.
+- **KIT AI Video Production System**: Programmatic video generation engine chaining AI transcription, TTS audio synthesis, and FFmpeg video compositing.
+
+## Leadership & Honors
+- **ByteARQ Coding Club**: Sponsorship Head and Lead Organizer for the flagship Byte & Build 3.0 hackathon at KIT's College of Engineering.
+- **Karate Black Belt (1st Dan)**: Certified Shito-Ryu Black Belt practitioner under recognized national martial arts authorities.
+- **National Silver Medalist**: National Martial Arts Championship Silver Medalist.

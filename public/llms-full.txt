@@ -1,0 +1,36 @@
+# Jayesh Nimse — Comprehensive Technical & Entity Dossier
+
+## 1. Professional Overview
+Jayesh Nimse is an Indian AI software developer, business strategist, and tech founder based in Kolhapur, Maharashtra. He operates at the convergence of Artificial Intelligence, Software Engineering, and Commercial Business Strategy.
+
+- Official Website: https://jayeshnimse.com
+- Primary Contact Email: jayeshnimse3@gmail.com
+- Current Position: Founder & CEO at ScaleRise MediaTech
+- Academic Degree: B.Tech in Computer Science & Business Systems (CSBS)
+- University / Institute: KIT's College of Engineering (Autonomous), Kolhapur, Maharashtra, India
+
+## 2. Technical Capabilities
+- **Programming Languages**: Python, TypeScript, JavaScript, C, C++, SQL.
+- **AI & Machine Learning**: Multi-Agent Systems, LangGraph, LlamaIndex, OpenAI / Claude / Gemini API Integration, Prompt Engineering, Vector Search, Computer Vision (OpenCV), Speech-to-Text (Whisper AI).
+- **Frontend & Full-Stack**: Next.js (App Router), React 18, TypeScript, Tailwind CSS, Framer Motion, Three.js, React Three Fiber.
+- **Backend & Database**: Node.js, FastAPI, REST APIs, MySQL, Prisma ORM, Serverless Functions, JWT Security.
+- **Automation & DevOps**: Git, GitHub, Vercel, Netlify, Docker, FFmpeg automation pipelines.
+
+## 3. Commercial & Business Strategy
+- **ScaleRise MediaTech**: Founded in 2024 to tackle high overhead in modern digital media distribution. Deploys algorithmic reach modeling, automated content production loops, and client growth roadmaps.
+- **Startnex (Business Strategist Intern)**: Formulated market intelligence reports, mapped competitor landscape, and structured growth execution frameworks.
+
+## 4. Student Leadership
+- **ByteARQ Coding Club**: Sponsorship Head. Managed corporate outreach, pitched to potential brand sponsors, closed funding and prizes, and orchestrated operations for the flagship Byte & Build 3.0 event under the Department of Computer Science & Business Systems.
+
+## 5. Athletic Discipline
+- **Shito-Ryu Karate Black Belt (1st Dan)**: Certified after rigorous training in physical conditioning, kata precision, and tactical sparring.
+- **National Silver Medalist**: Competed and placed 2nd nationwide in competitive martial arts.
+
+## 6. Family Heritage & Geographic Roots
+- **Father**: Vijay Chimaji Nimse
+- **Mother**: Kanchan Vijay Nimse
+- **Sister**: Namrata Vijay Nimse
+- **Home Residence**: Sangamner, Maharashtra (Location: https://maps.app.goo.gl/LnmBTW9vCKij6p2x6)
+- **Native Village Home**: Kolwadi / Santwadi, Maharashtra (Location: https://maps.app.goo.gl/Yo4tedpvr9NsA8Vq7)
+- **Foundational Schooling**: Completed 10th Standard (Secondary School Certificate / SSC) with 87.4% at Matoshri Rukminibai Damodar Malpani Vidyalaya, Sangamner (managed by Shri Shrikisan Kasturchand Lodha Trust), laying a strong foundation in mathematics and scientific reasoning.

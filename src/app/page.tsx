@@ -1,101 +1,99 @@
-import Image from "next/image";
+import HeroSection from "@/components/hero/HeroSection";
+import AboutSection from "@/components/portfolio/AboutSection";
+import OrbitalInnovationRing from "@/components/portfolio/OrbitalInnovationRing";
+import JourneyTimeline from "@/components/portfolio/JourneyTimeline";
+import SkillsSection from "@/components/portfolio/SkillsSection";
+import ProjectsSection from "@/components/portfolio/ProjectsSection";
+import ExperienceSection from "@/components/portfolio/ExperienceSection";
+import CollegeEducationSection from "@/components/portfolio/CollegeEducationSection";
+import LeadershipSection from "@/components/portfolio/LeadershipSection";
+import AchievementsSection from "@/components/portfolio/AchievementsSection";
+import ServicesSection from "@/components/portfolio/ServicesSection";
+import CommentsSection from "@/components/portfolio/CommentsSection";
+import FAQSection from "@/components/portfolio/FAQSection";
+import BlogSection from "@/components/portfolio/BlogSection";
+import ResumeSection from "@/components/portfolio/ResumeSection";
+import FiberOpticStream from "@/components/ui/FiberOpticStream";
+import ContactSection from "@/components/portfolio/ContactSection";
+import Footer from "@/components/portfolio/Footer";
+import { db } from "@/lib/db";
 
-export default function Home() {
+// Dynamic revalidation to reflect admin edits and comments immediately
+export const revalidate = 0;
+
+export default async function Home() {
+  // Fetch verified data models from unified database layer
+  const [
+    projects,
+    skillCategories,
+    experiences,
+    achievements,
+    services,
+    blogs,
+  ] = await Promise.all([
+    db.getProjects(),
+    db.getSkillCategories(),
+    db.getExperiences(),
+    db.getAchievements(),
+    db.getServices(),
+    db.getBlogs(),
+  ]);
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <main className="min-h-screen bg-[#faf7f4] text-slate-900 flex flex-col selection:bg-rose-500/20 selection:text-rose-900 relative bg-photo-canvas">
+      {/* 1. Hero Section - Signature Photo Canvas & 3D Interactive Composition */}
+      <HeroSection />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      {/* 2. About Me — Personal Narrative & Verified Mission */}
+      <AboutSection />
+
+      {/* 3. The Innovation Matrix — Digital Portal & Ethereal Swirling Core */}
+      <OrbitalInnovationRing />
+
+      {/* 6. Architectural Journey & Trajectory Timeline */}
+      <JourneyTimeline />
+
+      {/* 7. Skills & Technical Expertise */}
+      <SkillsSection categories={skillCategories as any} />
+
+      {/* 8. Featured Projects & In-Depth Case Studies */}
+      <ProjectsSection projects={projects as any} />
+
+      {/* 9. Professional Experience & Internships */}
+      <ExperienceSection experiences={experiences as any} />
+
+      {/* 10. College & Academic Rigor — KIT's College of Engineering Aerial Drone Showcase */}
+      <CollegeEducationSection />
+
+      {/* 11. Student Leadership — ByteARQ Sponsorship Head & Byte & Build 3.0 Flagship */}
+      <LeadershipSection />
+
+      {/* 12. Achievements — Shito-Ryu Black Belt & National Silver Medal */}
+      <AchievementsSection achievements={achievements as any} />
+
+      {/* 13. Strategic Services & Offerings */}
+      <ServicesSection services={services as any} />
+
+      {/* 14. AEO / GEO Verified Knowledge Base & FAQ */}
+      <FAQSection />
+
+      {/* 15. Technical Insights & Blog */}
+      <BlogSection blogs={blogs as any} />
+
+      {/* 16. Verified Resume Document Showcase & One-Click PDF Download */}
+      <ResumeSection />
+
+      {/* 17. Fiber-Optic Light Stream Ribbon (Inspired by uploaded animation climax) */}
+      <FiberOpticStream />
+
+      {/* 18. Contact & Direct Inquiries (jayeshnimse3@gmail.com) */}
+      <ContactSection />
+
+      {/* 19. Visitor Perspectives & Moderated Comments (Positioned down of Contact Section) */}
+      <CommentsSection />
+
+      {/* 20. Footer */}
+      <Footer />
+    </main>
   );
 }
