@@ -81,11 +81,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    // =========================================================================
-    // GOOGLE SEARCH CONSOLE VERIFICATION:
-    // When you get your Google verification string, uncomment and paste below:
-    // google: "PASTE_YOUR_GOOGLE_SEARCH_CONSOLE_CODE_HERE",
-    // =========================================================================
+    google: "1KLDiGQU2nBYtxei9FX6UuiotemY2r8vZPbU8DiqeJg",
   },
 };
 
@@ -247,11 +243,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        {/* ========================================================================= */}
-        {/* GOOGLE SEARCH CONSOLE VERIFICATION META TAG:                              */}
-        {/* You can also paste your meta tag directly here:                           */}
-        {/* <meta name="google-site-verification" content="PASTE_YOUR_CODE_HERE" /> */}
-        {/* ========================================================================= */}
+        <meta name="google-site-verification" content="1KLDiGQU2nBYtxei9FX6UuiotemY2r8vZPbU8DiqeJg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdGraph) }}
