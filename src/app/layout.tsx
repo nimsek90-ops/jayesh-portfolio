@@ -19,23 +19,25 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jayesh-portfolio-vert.vercel.app"),
-  title: "Jayesh Vijay Nimse | Founder & CEO at ScaleRise MediaTech & Full-Stack Developer",
+  title: "Jayesh Nimse Portfolio | Jayesh Vijay Nimse — Founder & CEO at ScaleRise MediaTech",
   description:
-    "Founder & CEO at ScaleRise MediaTech & Full-Stack Developer. Architecting AI-driven digital growth and robust web systems with ScaleRise, MedNova, and ARISE.",
+    "Official portfolio of Jayesh Nimse (Jayesh Vijay Nimse) — Founder & CEO at ScaleRise MediaTech & Full-Stack Developer. AI systems, MedNova, and ARISE.",
   keywords: [
-    "Jayesh Vijay Nimse",
     "Jayesh Nimse",
+    "Jayesh Nimse Portfolio",
+    "Jayesh Vijay Nimse",
+    "Jayesh Vijay Nimse Portfolio",
+    "Jayesh Nimse Website",
+    "Jayesh Nimse Official Website",
     "Founder & CEO at ScaleRise MediaTech",
     "ScaleRise MediaTech",
     "Full-Stack Developer",
     "AI Automation Developer",
     "MedNova",
     "ARISE",
-    "AI-driven digital growth",
     "KIT's College of Engineering Kolhapur",
     "CSBS Technologist",
-    "Python Developer",
-    "Next.js Developer",
+    "Jayesh Nimse Sangamner",
   ],
   authors: [{ name: "Jayesh Vijay Nimse", url: "https://jayesh-portfolio-vert.vercel.app" }],
   creator: "Jayesh Vijay Nimse",
@@ -44,17 +46,17 @@ export const metadata: Metadata = {
     canonical: "https://jayesh-portfolio-vert.vercel.app",
   },
   openGraph: {
-    title: "Jayesh Vijay Nimse | Founder & CEO at ScaleRise MediaTech & Full-Stack Developer",
+    title: "Jayesh Nimse Portfolio | Jayesh Vijay Nimse — Founder & CEO at ScaleRise MediaTech",
     description:
-      "Founder & CEO at ScaleRise MediaTech & Full-Stack Developer. Architecting AI-driven digital growth and robust web systems with ScaleRise, MedNova, and ARISE.",
+      "Official portfolio of Jayesh Nimse (Jayesh Vijay Nimse) — Founder & CEO at ScaleRise MediaTech & Full-Stack Developer. AI systems, MedNova, and ARISE.",
     url: "https://jayesh-portfolio-vert.vercel.app",
-    siteName: "Jayesh Vijay Nimse Portfolio",
+    siteName: "Jayesh Nimse Portfolio",
     images: [
       {
         url: "https://jayesh-portfolio-vert.vercel.app/images/jayesh_hero_portrait.png",
         width: 654,
         height: 1212,
-        alt: "Jayesh Vijay Nimse — Founder & CEO at ScaleRise MediaTech & Full-Stack Developer",
+        alt: "Jayesh Nimse Portfolio — Founder & CEO at ScaleRise MediaTech",
       },
     ],
     locale: "en_US",
@@ -62,9 +64,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jayesh Vijay Nimse | Founder & CEO at ScaleRise MediaTech & Full-Stack Developer",
+    title: "Jayesh Nimse Portfolio | Jayesh Vijay Nimse — Founder & CEO at ScaleRise MediaTech",
     description:
-      "Founder & CEO at ScaleRise MediaTech & Full-Stack Developer. Architecting AI-driven digital growth and robust web systems with ScaleRise, MedNova, and ARISE.",
+      "Official portfolio of Jayesh Nimse (Jayesh Vijay Nimse) — Founder & CEO at ScaleRise MediaTech & Full-Stack Developer.",
     images: ["https://jayesh-portfolio-vert.vercel.app/images/jayesh_hero_portrait.png"],
   },
   robots: {

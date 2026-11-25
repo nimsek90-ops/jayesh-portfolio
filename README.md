@@ -1,7 +1,11 @@
-# JAYESH NIMSE — PREMIUM 3D PERSONAL PORTFOLIO & DIGITAL IDENTITY PLATFORM
+# JAYESH NIMSE — OFFICIAL 3D PERSONAL PORTFOLIO & DIGITAL IDENTITY
 
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-https%3A%2F%2Fjayesh--portfolio--vert.vercel.app-rose?style=for-the-badge&logo=vercel)](https://jayesh-portfolio-vert.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-nimsek90--ops-181717?style=for-the-badge&logo=github)](https://github.com/nimsek90-ops)
+
+> **Official Portfolio Website**: [https://jayesh-portfolio-vert.vercel.app](https://jayesh-portfolio-vert.vercel.app)  
 > **"Building intelligent solutions at the intersection of AI, Technology and Business."**  
-> *Founder & CEO of ScaleRise MediaTech | AI & Technology Builder | Business Strategist*
+> *Founder & CEO of ScaleRise MediaTech | AI & Technology Builder | Full-Stack Developer*
 
 ---
 

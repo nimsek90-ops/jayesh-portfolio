@@ -6,6 +6,12 @@ export interface FAQItem {
 
 export const FAQ_ITEMS: FAQItem[] = [
   {
+    id: "faq-0",
+    question: "Where can I find Jayesh Nimse's official portfolio?",
+    answer:
+      "The official personal portfolio of Jayesh Nimse (Jayesh Vijay Nimse) is hosted live at https://jayesh-portfolio-vert.vercel.app. It showcases his work as Founder & CEO of ScaleRise MediaTech, full-stack systems like MedNova, AI automation pipelines, academic background at KIT's College of Engineering Kolhapur, and direct contact channels.",
+  },
+  {
     id: "faq-1",
     question: "Who is Jayesh Nimse?",
     answer:

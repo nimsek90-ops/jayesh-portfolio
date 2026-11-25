@@ -188,7 +188,7 @@ describe("Jayesh Nimse Portfolio Integrity Checks", () => {
     const sitemapContent = fs.readFileSync(path.join(__dirname, "../src/app/sitemap.ts"), "utf8");
 
     // Title
-    expect(layoutContent).toContain("Jayesh Vijay Nimse | Founder & CEO at ScaleRise MediaTech & Full-Stack Developer");
+    expect(layoutContent).toContain("Jayesh Nimse Portfolio | Jayesh Vijay Nimse — Founder & CEO at ScaleRise MediaTech");
     // Canonical URL
     expect(layoutContent).toContain("https://jayesh-portfolio-vert.vercel.app");
     // Open Graph

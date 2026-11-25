@@ -103,7 +103,7 @@ export default function HeroSection({
             className="text-center z-10 mb-2 sm:mb-3"
           >
             <span className="inline-block text-xs sm:text-sm font-extrabold tracking-[0.25em] text-[#111418] uppercase bg-white/45 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/60 shadow-sm">
-              AI + TECHNOLOGY + BUSINESS
+              JAYESH NIMSE • OFFICIAL PORTFOLIO
             </span>
           </motion.div>
 
@@ -115,7 +115,7 @@ export default function HeroSection({
             >
               <h1 className="font-extrabold text-[14.5vw] sm:text-[13.5vw] lg:text-[150px] xl:text-[170px] leading-[0.88] tracking-tighter text-[#12141a] uppercase flex flex-col items-center justify-center font-display">
                 <span className="sr-only">
-                  Jayesh Vijay Nimse | Founder &amp; CEO at ScaleRise MediaTech &amp; Full-Stack Developer
+                  Jayesh Nimse Portfolio — Jayesh Vijay Nimse | Founder &amp; CEO at ScaleRise MediaTech &amp; Full-Stack Developer
                 </span>
                 <span className="flex items-center justify-center">
                   <span>INNOVATOR</span>
